@@ -23,7 +23,7 @@ importers:
         version: 3.4.0(@algolia/client-search@4.24.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.14.0)(typescript@5.5.3)
       '@easyops-cn/docusaurus-search-local':
         specifier: ^0.44.0
-        version: 0.44.2(@docusaurus/theme-common@3.4.0(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
+        version: 0.44.3(@docusaurus/theme-common@3.4.0(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
       '@mdx-js/react':
         specifier: ^3.0.0
         version: 3.0.1(@types/react@18.3.3)(react@18.3.1)
@@ -118,7 +118,7 @@ importers:
         version: 8.2.2
       isomorphic-dompurify:
         specifier: ^2.11.0
-        version: 2.12.0
+        version: 2.13.0
       marked:
         specifier: ^13.0.0
         version: 13.0.2
@@ -1040,8 +1040,8 @@ packages:
   '@easyops-cn/autocomplete.js@0.38.1':
     resolution: {integrity: sha512-drg76jS6syilOUmVNkyo1c7ZEBPcPuK+aJA7AksM5ZIIbV57DMHCywiCr+uHyv8BE5jUTU98j/H7gVrkHrWW3Q==}
 
-  '@easyops-cn/docusaurus-search-local@0.44.2':
-    resolution: {integrity: sha512-4tMBU54R1O6ITxkMGwOEifSHNkZLa2fb4ajGc8rd6TYZ0a8+jlu/u/5gYtw1s6sGGMRkwyG+QI6HD0bEnCRa1w==}
+  '@easyops-cn/docusaurus-search-local@0.44.3':
+    resolution: {integrity: sha512-BIrYcrifDJnkl7AVz3e7Fuwy2Xy3nKjhPW/POoE2SF/YhKg98DleZ6jI98znnB1mu/cW6l2rUyClrQzDhAS8hA==}
     engines: {node: '>=12'}
     peerDependencies:
       '@docusaurus/theme-common': ^2 || ^3
@@ -3444,8 +3444,8 @@ packages:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
 
-  isomorphic-dompurify@2.12.0:
-    resolution: {integrity: sha512-jJm6VgJ9toBLqNUHuLudn+2Q3NBBaoPbsh5SzzO2dp9Zq9+p6fEg4Ffuq9RZsofb8OnqE6FJVVq3MRDLlmBHpA==}
+  isomorphic-dompurify@2.13.0:
+    resolution: {integrity: sha512-jVxFnyOiA3fKPkteQjfIogww9T/BIX1Basuwt5D50MB3Sqvki9yBNq96ICLHpbiDY79jc6RC555DeBbTCt6i6A==}
     engines: {node: '>=18'}
 
   jest-util@29.7.0:
@@ -4021,8 +4021,8 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nwsapi@2.2.10:
-    resolution: {integrity: sha512-QK0sRs7MKv0tKe1+5uZIQk/C8XGza4DAnztJG8iD+TpJIORARrCxczA738awHrZoHeTjSSoHqao2teO0dC/gFQ==}
+  nwsapi@2.2.12:
+    resolution: {integrity: sha512-qXDmcVlZV4XRtKFzddidpfVP4oMSGhga+xdMc25mv8kaLUHtgzCDhUxkrN8exkGdTlLNaXj7CV3GtON7zuGZ+w==}
 
   oas-kit-common@1.0.8:
     resolution: {integrity: sha512-pJTS2+T0oGIwgjGpw7sIRU8RQMcUoKCDWFLdBqKB2BNmGpbBMH2sdqAaOXUg8OzonZHU0L7vfJu1mJFEiYDWOQ==}
@@ -7334,7 +7334,7 @@ snapshots:
       cssesc: 3.0.0
       immediate: 3.3.0
 
-  '@easyops-cn/docusaurus-search-local@0.44.2(@docusaurus/theme-common@3.4.0(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)':
+  '@easyops-cn/docusaurus-search-local@0.44.3(@docusaurus/theme-common@3.4.0(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)':
     dependencies:
       '@docusaurus/plugin-content-docs': 3.4.0(debug@4.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
       '@docusaurus/theme-common': 3.4.0(@docusaurus/types@3.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
@@ -10070,7 +10070,7 @@ snapshots:
 
   isobject@3.0.1: {}
 
-  isomorphic-dompurify@2.12.0:
+  isomorphic-dompurify@2.13.0:
     dependencies:
       '@types/dompurify': 3.0.5
       dompurify: 3.1.6
@@ -10136,7 +10136,7 @@ snapshots:
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.5
       is-potential-custom-element-name: 1.0.1
-      nwsapi: 2.2.10
+      nwsapi: 2.2.12
       parse5: 7.1.2
       rrweb-cssom: 0.7.1
       saxes: 6.0.0
@@ -10905,7 +10905,7 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nwsapi@2.2.10: {}
+  nwsapi@2.2.12: {}
 
   oas-kit-common@1.0.8:
     dependencies:
